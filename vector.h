@@ -26,7 +26,7 @@
         (v).a[(v).n++] = (x);                                                           \
     }                                                                                   \
     _error;                                                                             \
-})                                                                                      \
+})
 #define VEC_REMOVE(v, index) ({                         \
     size_t _i = (size_t)(index);                        \
     int _error = 0;                                     \
